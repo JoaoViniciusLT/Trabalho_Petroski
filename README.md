@@ -20,7 +20,7 @@ O sistema é formado por dois CRUDs (alimentos e marmitas) ligados por uma tabel
 | João Vitor Pereira Kramek | [@Kramekjvp](https://github.com/Kramekjvp) | Scrum Master | programar, documentar | Organiza o quadro e as entregas, cobra prazos e remove obstáculos do grupo. |
 | Matheus Henrique de Paiva Pinto | [@MatheusPaiva-ai](https://github.com/MatheusPaiva-ai) | Product Owner | negociar, documentar | Fala pelo usuário da marmita, prioriza o backlog e aceita as histórias. |
 | Gabriel Barreto | [@B3rretog](https://github.com/B3rretog) | Desenvolvedor | programar, testar | Implementa as histórias e escreve os testes antes do código (TDD). |
-| Samanta Barth | [@sasalindaaaa](https://github.com/sasalindaaaa) | Desenvolvedora / testes | testar, documentar | Mantém o plano de teste e confere os critérios de aceitação. |
+| Samanta Barth | [@samanta-barth](https://github.com/samanta-barth) | Desenvolvedora / testes | testar, documentar | Mantém o plano de teste e confere os critérios de aceitação. |
 
 As quatro competências (negociar, programar, testar e documentar) estão cobertas. "Negociar" tem só uma pessoa: o Scrum Master substitui o PO quando ele faltar.
 
