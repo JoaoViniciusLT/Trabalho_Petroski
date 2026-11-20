@@ -1,6 +1,6 @@
 # Arquitetura do UIMarmita
 
-Decisão completa em [ADR-001](ADRS/ADR-001-camadas.md).
+Decisão completa em [ADR-001](adr/ADR-001-arquitetura-em-camadas.md).
 
 ## Estilo
 
@@ -41,7 +41,7 @@ Proteína da marmita = soma de (gramas do item / 100 x proteína por 100 g do al
 
 ## Padrão de projeto
 
-**Repository:** cada tabela tem um repositório que esconde os detalhes do banco. O serviço conversa só com ele, o que facilita testar o serviço e trocar o banco depois.
+**Facade:** cada serviço é a fachada que a apresentação usa. A tela chama um só método do serviço, e ele coordena validação, repositórios e cálculo. Detalhes no ADR-001.
 
 ## Desvantagem do estilo e mitigação
 
