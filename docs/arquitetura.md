@@ -10,10 +10,10 @@ Aplicação única (monolito) em Node.js com Express, em três camadas: apresent
 
 ```mermaid
 flowchart TD
-    U["Usuário<br/>(navegador no celular ou computador)"]
+    U["Usuário<br/>(navegador no computador)"]
     A["Camada de apresentação<br/>telas de alimentos e de marmitas"]
-    S["Camada de serviço<br/>validação (RNF-01) e cálculo da proteína"]
-    R["Camada de repositório (padrão Repository)<br/>AlimentoRepository, MarmitaRepository, ItemMarmitaRepository"]
+    S["Camada de serviço (Facade)<br/>validação (RNF-01) e cálculo da proteína"]
+    R["Camada de repositório<br/>AlimentoRepository, MarmitaRepository, ItemMarmitaRepository"]
     B[("Banco de dados relacional SQLite (RNF-02)<br/>alimento, marmita, item_marmita")]
 
     U --> A
