@@ -1,4 +1,4 @@
-# Marmita
+# UIMarmita
 
 Sistema simples para planejar as refeições da semana. O usuário cadastra os alimentos (nome, categoria e proteína por 100 g) e monta suas marmitas escolhendo os alimentos e a quantidade em gramas de cada um. O sistema calcula automaticamente a proteína total de cada marmita.
 
